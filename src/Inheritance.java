@@ -27,11 +27,11 @@ class BB extends AA{
 public class Inheritance {
 	public static void main(String[] args) {
 		AA a = new AA();
-		System.out.println(a.a);
+//		System.out.println(a.a);
 
 		BB b = new BB();
 		b.aaa();
-		System.out.println(b.a);
-		System.out.println(b.b);
+//		System.out.println(b.a);
+//		System.out.println(b.b);
 	}
 }
