@@ -26,9 +26,9 @@ public class Array2 {
 		System.out.println("summ: " + summ); 
 		
 		// 2차원 배열
-		int [][] arrr = new int [3][4]; // 1  2  3  4
-		int num = 1;					// 5  6  7  8
-		for(int i = 0; i < 3; i++) {	// 9 10 11 12 이렇게 나와야되는데 \t가 안먹음
+		int [][] arrr = new int [3][4];
+		int num = 1;					
+		for(int i = 0; i < 3; i++) {	
 			for(int j = 0; j < 4; j++) {
 				arrr[i][j] = num;
 				num++;
@@ -36,7 +36,7 @@ public class Array2 {
 		}
 		for(int i = 0; i< 3; i++) {
 			for(int j = 0; j < 4; j++) {
-				System.out.println(arrr[i][j] + "\t");
+				System.out.print(arrr[i][j] + "\t");
 			}
 			System.out.println();
 		}
@@ -45,11 +45,11 @@ public class Array2 {
 		int[][] arrrr = {
 				{11},
 				{22, 33},
-				{44, 55, 66} // 원래 이렇게 나와야되는데 \t가 안먹음
+				{44, 55, 66}
 		};
 		for(int i = 0; i < arrrr.length; i++) {
 			for(int j = 0; j < arrrr[i].length; j++) {
-				System.out.println(arrrr[i][j] + "\t");
+				System.out.print(arrrr[i][j] + "\t");
 			}
 			System.out.println();
 		}

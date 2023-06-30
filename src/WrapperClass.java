@@ -3,12 +3,13 @@ public class WrapperClass {
 
 	public static void main(String[] args) {
 		Integer num1 = new Integer(29);
-		Integer iobj = 10; // auto boxing
 		System.out.println(num1.intValue());
 		System.out.println(num1.doubleValue());
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.MIN_VALUE);
-		int num3 = iobj.intValue(); // auto unboxing
+		Integer iobj = 10; // auto boxing
+		int num3 = iobj; // auto unboxing
+		System.out.println(iobj);
 		
 		Double num2 = new Double(3.14);
 		System.out.println(num2.intValue());
